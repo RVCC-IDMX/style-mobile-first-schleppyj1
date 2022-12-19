@@ -1,0 +1,82 @@
+/* main */
+@import url(https://fonts.googleapis.com/css?family=Unbounded);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.container {
+  display: grid;
+  line-height: 1.8;
+  font-size: var(--font-size-fluid-1);
+  font-family: "Roboto";
+}
+
+body {
+  background-image: linear-gradient(#ffded8, #fffafa, #c2e5d3);
+  margin: 25px 50px 75px 100px;
+}
+
+h1 {
+  font-family: "Unbounded";
+  font-size: var(--font-size-fluid-3);
+  margin-left: -2rem;
+  letter-spacing: var(--font-letterspacing-3);
+  color: var(--pink-12);
+  font-weight: var(--font-weight-9);
+}
+
+h2 {
+  margin-left: -2rem;
+  font-size: var(--font-size-fluid-2);
+  letter-spacing: var(--font-letterspacing-2);
+  font-weight: var(--font-weight-5);
+}
+
+h3 {
+  margin-left: -2rem;
+  letter-spacing: var(--font-letterspacing-3);
+  font-weight: var(--font-weight-3);
+}
+
+h4 {
+  margin-left: -2rem;
+}
+
+ul {
+  line-height: 2.5;
+  font-family: "Roboto";
+}
+
+p {
+  margin-left: -2rem;
+  letter-spacing: var(--font-letterspacing-2);
+}
+
+.link-guidelines {
+  margin-left: -2rem;
+}
+
+li {
+  margin-left: -2rem;
+  line-height: 1.8;
+}
+
+.skip-link {
+  margin-left: -2rem;
+}
+
+a {
+  line-height: 2.5;
+  font-family: "Roboto";
+}
+
+.skip-link:not(:focus) {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+:where(ul, ol) {
+  list-style-position: inside;
+}
